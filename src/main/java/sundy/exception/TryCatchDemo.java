@@ -8,14 +8,14 @@ public class TryCatchDemo {
     public int returnValue() {
         try {
             System.out.println("try 语句块");
+            int a = 1/0;
             return 1;
         } catch (Exception e) {
             System.out.println("catch 语句块");
-            e.printStackTrace();
+            return 2;
         } finally {
             System.out.println("finally 语句块");
         }
-        return 3;
     }
 
     public void returnNull() {
