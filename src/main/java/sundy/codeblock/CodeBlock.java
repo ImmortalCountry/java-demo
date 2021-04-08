@@ -32,6 +32,8 @@ public class CodeBlock extends Father{
         CodeBlock test = new CodeBlock("test");
         System.out.println("___________");
         CodeBlock test1 = new CodeBlock("test");
+        System.out.println("___________");
+        Father aa = new Father("aa");
     }
     public void print(){
         System.out.println("CodeBlock");
